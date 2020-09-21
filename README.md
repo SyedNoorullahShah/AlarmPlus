@@ -10,6 +10,7 @@ Alarm Plus is an android alarm clock app for heavy sleepers which, instead of a 
 - **Libraries:-**
   - **Database:** [Realm](https://realm.io/blog/realm-for-android/)
   - **Memory Leak Detection:** [LeakCanary](https://github.com/square/leakcanary)
+  - **Alarm Scheduling:-** [AlarmManager](https://developer.android.com/reference/android/app/AlarmManager)
 
 ## App Functionalities
 The user can:-
@@ -22,6 +23,7 @@ The user can:-
   2. **Step Counter mode:** Set **number of steps** user has to take for stopping the alarm
   
 ### App Screenshots
-![Image 1](https://drive.google.com/uc?export=view&id=1NjIXvniCv95jGM3SpEM1pDuEuqug9xDH)
+[These screenshots ](https://drive.google.com/drive/folders/1NC33JKtK4bBbliuFCLxWD3I7hqGGYi7e?usp=sharing)show the overview of the app flow.
 
- 
+## TODO
+Reschedule alarms of the AlarmManager that were removed due to system reboot.
