@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.alarmmode.GameActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="3">
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="@+id/gridLayout"
+        app:layout_constraintStart_toStartOf="@+id/gridLayout"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="348dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="@+id/gridLayout"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <View
+        android:layout_width="348dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="115dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintLeft_toLeftOf="@+id/gridLayout"
+        app:layout_constraintRight_toRightOf="@+id/gridLayout"
+        app:layout_constraintStart_toStartOf="@+id/gridLayout"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout" />
+
+    <View
+        android:layout_width="348dp"
+        android:layout_height="4dp"
+        android:layout_marginBottom="115dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="@+id/gridLayout"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintLeft_toLeftOf="@+id/gridLayout"
+        app:layout_constraintRight_toRightOf="@+id/gridLayout"
+        app:layout_constraintStart_toStartOf="@+id/gridLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TimePicker
+            android:id="@+id/alarm_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:timePickerMode="spinner" />
+
+        <RelativeLayout
+            android:id="@+id/item_label"
+            style="@style/item_style">
+
+            <TextView
+                android:id="@+id/alarm_label"
+                style="@style/label_style"
+                android:text="Alarm Label" />
+
+            <TextView
+                android:id="@+id/label_caption"
+                style="@style/caption_style"
+                android:text="Alarm" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_ringtone"
+            style="@style/item_style">
+
+            <TextView
+                android:id="@+id/alarm_ringtone"
+                style="@style/label_style"
+                android:text="Alarm Ringtone" />
+
+            <TextView
+                android:id="@+id/ringtone_caption"
+                style="@style/caption_style"
+                android:text="alarmObject x" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_mode"
+            style="@style/item_style">
+
+            <TextView
+                android:id="@+id/alarm_mode"
+                style="@style/label_style"
+                android:text="Alarm Mode" />
+
+            <TextView
+                android:id="@+id/mode_caption"
+                style="@style/caption_style"
+                android:text="Game" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_snooze"
+            style="@style/item_style"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/alarm_snooze"
+                style="@style/label_style"
+                android:text="Snooze" />
+
+            <Switch
+                android:id="@+id/snooze_switch"
+                style="@style/switch_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_track"
+            style="@style/item_style"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/alarm_track"
+                style="@style/label_style"
+                android:text="Track Sleep" />
+
+            <Switch
+                android:id="@+id/track_switch"
+                style="@style/switch_style" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:text="Set" />
+
+    </LinearLayout>
+</ScrollView>
