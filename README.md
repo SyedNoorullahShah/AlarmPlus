@@ -22,6 +22,6 @@ The user can:-
   2. **Step Counter mode:** Set **number of steps** user has to take for stopping the alarm
   
 ### App Screenshots
-![Image 1](https://drive.google.com/file/d/1NjIXvniCv95jGM3SpEM1pDuEuqug9xDH/view?usp=sharing)
+![Image 1](https://drive.google.com/uc?export=view&id=1NjIXvniCv95jGM3SpEM1pDuEuqug9xDH)
 
  
