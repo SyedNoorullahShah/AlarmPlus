@@ -2,7 +2,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.alarmObject.android.alarmplus">
+    package="com.alarm.android.alarmplus">
 
     <application
         android:name=".DebugApp"

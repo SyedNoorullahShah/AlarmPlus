@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alarm.android.alarmplus.ui.alarmmode.AlarmModeActivity;
-import com.alarmObject.android.alarmplus.R;
+import com.alarm.android.alarmplus.R;
 
 public class StepCounterActivity extends AlarmModeActivity implements SensorEventListener {
     private TextView stepText;

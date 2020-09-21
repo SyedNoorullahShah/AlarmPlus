@@ -12,10 +12,11 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.alarm.android.alarmplus.R;
 import com.alarm.android.alarmplus.game.AI_Move;
 import com.alarm.android.alarmplus.game.AI_Player;
 import com.alarm.android.alarmplus.game.Players;
-import com.alarmObject.android.alarmplus.R;
+
 
 import java.util.Random;
 import java.util.Timer;

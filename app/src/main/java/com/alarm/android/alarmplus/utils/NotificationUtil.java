@@ -15,7 +15,7 @@ import com.alarm.android.alarmplus.ui.main.MainActivity;
 import com.alarm.android.alarmplus.ui.alarmmode.StepCounterActivity;
 import com.alarm.android.alarmplus.database.AlarmObject;
 import com.alarm.android.alarmplus.database.AlarmModeObject;
-import com.alarmObject.android.alarmplus.R;
+import com.alarm.android.alarmplus.R;
 
 public class NotificationUtil {
 

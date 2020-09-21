@@ -17,6 +17,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
 import com.alarm.android.alarmplus.ui.settings.AlarmSettingsActivity;
+import com.alarm.android.alarmplus.R;
 
 public class AlarmSettingsModeDialog extends AppCompatDialogFragment {
 

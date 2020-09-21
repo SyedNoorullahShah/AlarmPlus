@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.alarm.android.alarmplus.service.AlarmService;
 import com.alarm.android.alarmplus.utils.MediaPlayerUtils;
-import com.alarmObject.android.alarmplus.R;
+import com.alarm.android.alarmplus.R;
 
 import java.util.ArrayList;
 

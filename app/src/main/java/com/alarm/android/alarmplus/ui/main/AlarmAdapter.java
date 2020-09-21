@@ -20,6 +20,7 @@ import com.alarm.android.alarmplus.service.AlarmService;
 import com.alarm.android.alarmplus.ui.settings.AlarmSettingsActivity;
 import com.alarm.android.alarmplus.utils.AlarmDBUtils;
 import com.alarm.android.alarmplus.utils.AlarmUtil;
+import com.alarm.android.alarmplus.R;
 
 import java.text.DateFormat;
 import java.util.Calendar;

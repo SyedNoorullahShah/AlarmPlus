@@ -12,10 +12,10 @@ import com.alarm.android.alarmplus.database.AlarmObject;
 import com.alarm.android.alarmplus.database.AlarmModeObject;
 import com.alarm.android.alarmplus.ui.alarmmode.GameActivity;
 import com.alarm.android.alarmplus.utils.AlarmDBUtils;
-import com.alarmObject.android.alarmplus.R;
+import com.alarm.android.alarmplus.R;
 import com.ncorti.slidetoact.SlideToActView;
 
-import org.jetbrains.annotations.NotNull;
+import  androidx.annotation.NonNull;
 
 public class LockActivity extends AppCompatActivity {
 
@@ -32,7 +32,7 @@ public class LockActivity extends AppCompatActivity {
         SlideToActView slider = (SlideToActView) findViewById(R.id.slider);
         slider.setOnSlideCompleteListener(new SlideToActView.OnSlideCompleteListener() {
             @Override
-            public void onSlideComplete(@NotNull SlideToActView slideToActView) {
+            public void onSlideComplete(@NonNull SlideToActView slideToActView) {
                 Intent intent = new Intent(LockActivity.this, contentIntent());
                 startActivity(intent);
                 finish();

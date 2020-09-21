@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alarmObject.android.alarmplus">
+    package="com.alarm.android.alarmplus">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -18,7 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,10 +26,10 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".AlarmService" />
+        <service android:name=".service.AlarmService" />
 
-        <receiver android:name=".AlarmReceiver" />
-        <receiver android:name=".BootReceiver">
+        <receiver android:name=".receivers.AlarmReceiver" />
+        <receiver android:name=".receivers.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
@@ -37,20 +37,20 @@
         </receiver>
 
         <activity
-            android:name=".GameActivity"
+            android:name=".ui.alarmmode.GameActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleTask" />
         <activity
-            android:name=".AlarmSettingsActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".ui.settings.AlarmSettingsActivity"
+            android:parentActivityName=".ui.main.MainActivity" />
         <activity
-            android:name=".RingtoneActivity"
-            android:parentActivityName=".AlarmSettingsActivity" />
+            android:name=".ui.ringtone.RingtoneActivity"
+            android:parentActivityName=".ui.settings.AlarmSettingsActivity" />
         <activity
-            android:name=".StepCounterActivity"
+            android:name=".ui.alarmmode.StepCounterActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleTask" />
-        <activity android:name=".LockActivity"
+        <activity android:name=".ui.lockscreen.LockActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"/>
     </application>
